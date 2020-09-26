@@ -20,8 +20,8 @@
         <relationship name="courseimagetocourse" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Course" inverseName="coursetocourseimage" inverseEntity="Course"/>
     </entity>
     <elements>
-        <element name="Course" positionX="-20.22265625" positionY="-271.67578125" width="128" height="148"/>
-        <element name="CourseImage" positionX="-56.28515625" positionY="-36.51953125" width="128" height="88"/>
-        <element name="Category" positionX="210.4375" positionY="-168.953125" width="128" height="88"/>
+        <element name="Category" positionX="-374.35546875" positionY="-219.2890625" width="128" height="88"/>
+        <element name="Course" positionX="-230.125" positionY="-320.33203125" width="128" height="148"/>
+        <element name="CourseImage" positionX="-194.65625" positionY="-96.43359375" width="128" height="88"/>
     </elements>
 </model>

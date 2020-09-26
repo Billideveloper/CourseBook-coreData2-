@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		186B8ECB251E425B00F8450B /* CourseviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186B8ECA251E425B00F8450B /* CourseviewCell.swift */; };
+		186B8ECE251E4EE000F8450B /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186B8ECD251E4EE000F8450B /* constants.swift */; };
 		18AB677E251DCF0F0049EA17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB677D251DCF0F0049EA17 /* AppDelegate.swift */; };
 		18AB6780251DCF0F0049EA17 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB677F251DCF0F0049EA17 /* SceneDelegate.swift */; };
 		18AB6782251DCF0F0049EA17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB6781251DCF0F0049EA17 /* ViewController.swift */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		186B8ECA251E425B00F8450B /* CourseviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseviewCell.swift; sourceTree = "<group>"; };
+		186B8ECD251E4EE000F8450B /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
 		18AB677A251DCF0F0049EA17 /* CourseBook(coreData2).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CourseBook(coreData2).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18AB677D251DCF0F0049EA17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18AB677F251DCF0F0049EA17 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +87,8 @@
 				18AB678B251DCF120049EA17 /* LaunchScreen.storyboard */,
 				18AB678E251DCF120049EA17 /* Info.plist */,
 				18AB6786251DCF0F0049EA17 /* CourseBook_coreData2_.xcdatamodeld */,
+				186B8ECA251E425B00F8450B /* CourseviewCell.swift */,
+				186B8ECD251E4EE000F8450B /* constants.swift */,
 			);
 			path = "CourseBook(coreData2)";
 			sourceTree = "<group>";
@@ -191,7 +197,9 @@
 				18AB6782251DCF0F0049EA17 /* ViewController.swift in Sources */,
 				18AB679D251E06630049EA17 /* Category+CoreDataClass.swift in Sources */,
 				18AB6788251DCF0F0049EA17 /* CourseBook_coreData2_.xcdatamodeld in Sources */,
+				186B8ECE251E4EE000F8450B /* constants.swift in Sources */,
 				18AB677E251DCF0F0049EA17 /* AppDelegate.swift in Sources */,
+				186B8ECB251E425B00F8450B /* CourseviewCell.swift in Sources */,
 				18AB67AA251E1CDC0049EA17 /* addCourseViewController.swift in Sources */,
 				18AB679C251E06630049EA17 /* Course+CoreDataProperties.swift in Sources */,
 				18AB6780251DCF0F0049EA17 /* SceneDelegate.swift in Sources */,
