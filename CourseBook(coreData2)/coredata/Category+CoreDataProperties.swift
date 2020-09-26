@@ -2,7 +2,7 @@
 //  Category+CoreDataProperties.swift
 //  CourseBook(coreData2)
 //
-//  Created by Ravi Thakur on 25/09/20.
+//  Created by Ravi Thakur on 26/09/20.
 //
 //
 
@@ -18,7 +18,7 @@ extension Category {
 
     @NSManaged public var name: String?
     @NSManaged public var categoryToCourse: Course?
-    @NSManaged public var categoryToCourseimage: CourseImage?
+    @NSManaged public var categoryToCourseimage: Image?
 
 }
 

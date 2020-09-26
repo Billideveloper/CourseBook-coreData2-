@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1831100A251F5A34001710FA /* Image+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18311004251F5A34001710FA /* Image+CoreDataClass.swift */; };
+		1831100B251F5A34001710FA /* Image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18311005251F5A34001710FA /* Image+CoreDataProperties.swift */; };
+		1831100C251F5A34001710FA /* Course+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18311006251F5A34001710FA /* Course+CoreDataClass.swift */; };
+		1831100D251F5A34001710FA /* Course+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18311007251F5A34001710FA /* Course+CoreDataProperties.swift */; };
+		1831100E251F5A34001710FA /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18311008251F5A34001710FA /* Category+CoreDataClass.swift */; };
+		1831100F251F5A34001710FA /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18311009251F5A34001710FA /* Category+CoreDataProperties.swift */; };
 		186B8ECB251E425B00F8450B /* CourseviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186B8ECA251E425B00F8450B /* CourseviewCell.swift */; };
 		186B8ECE251E4EE000F8450B /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186B8ECD251E4EE000F8450B /* constants.swift */; };
 		18AB677E251DCF0F0049EA17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB677D251DCF0F0049EA17 /* AppDelegate.swift */; };
@@ -16,16 +22,16 @@
 		18AB6788251DCF0F0049EA17 /* CourseBook_coreData2_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18AB6786251DCF0F0049EA17 /* CourseBook_coreData2_.xcdatamodeld */; };
 		18AB678A251DCF120049EA17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18AB6789251DCF120049EA17 /* Assets.xcassets */; };
 		18AB678D251DCF120049EA17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AB678B251DCF120049EA17 /* LaunchScreen.storyboard */; };
-		18AB679B251E06630049EA17 /* Course+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB6795251E06630049EA17 /* Course+CoreDataClass.swift */; };
-		18AB679C251E06630049EA17 /* Course+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB6796251E06630049EA17 /* Course+CoreDataProperties.swift */; };
-		18AB679D251E06630049EA17 /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB6797251E06630049EA17 /* Category+CoreDataClass.swift */; };
-		18AB679E251E06630049EA17 /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB6798251E06630049EA17 /* Category+CoreDataProperties.swift */; };
-		18AB679F251E06630049EA17 /* CourseImage+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB6799251E06630049EA17 /* CourseImage+CoreDataClass.swift */; };
-		18AB67A0251E06630049EA17 /* CourseImage+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB679A251E06630049EA17 /* CourseImage+CoreDataProperties.swift */; };
 		18AB67AA251E1CDC0049EA17 /* addCourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB67A9251E1CDC0049EA17 /* addCourseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18311004251F5A34001710FA /* Image+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Image+CoreDataClass.swift"; path = "CourseBook(coreData2)/coredata/Image+CoreDataClass.swift"; sourceTree = "<group>"; };
+		18311005251F5A34001710FA /* Image+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Image+CoreDataProperties.swift"; path = "CourseBook(coreData2)/coredata/Image+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		18311006251F5A34001710FA /* Course+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Course+CoreDataClass.swift"; path = "CourseBook(coreData2)/coredata/Course+CoreDataClass.swift"; sourceTree = "<group>"; };
+		18311007251F5A34001710FA /* Course+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Course+CoreDataProperties.swift"; path = "CourseBook(coreData2)/coredata/Course+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		18311008251F5A34001710FA /* Category+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Category+CoreDataClass.swift"; path = "CourseBook(coreData2)/coredata/Category+CoreDataClass.swift"; sourceTree = "<group>"; };
+		18311009251F5A34001710FA /* Category+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Category+CoreDataProperties.swift"; path = "CourseBook(coreData2)/coredata/Category+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		186B8ECA251E425B00F8450B /* CourseviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseviewCell.swift; sourceTree = "<group>"; };
 		186B8ECD251E4EE000F8450B /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
 		18AB677A251DCF0F0049EA17 /* CourseBook(coreData2).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CourseBook(coreData2).app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,12 +43,6 @@
 		18AB6789251DCF120049EA17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18AB678C251DCF120049EA17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18AB678E251DCF120049EA17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18AB6795251E06630049EA17 /* Course+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Course+CoreDataClass.swift"; sourceTree = "<group>"; };
-		18AB6796251E06630049EA17 /* Course+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Course+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		18AB6797251E06630049EA17 /* Category+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataClass.swift"; sourceTree = "<group>"; };
-		18AB6798251E06630049EA17 /* Category+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		18AB6799251E06630049EA17 /* CourseImage+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CourseImage+CoreDataClass.swift"; sourceTree = "<group>"; };
-		18AB679A251E06630049EA17 /* CourseImage+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CourseImage+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		18AB67A9251E1CDC0049EA17 /* addCourseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addCourseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +60,12 @@
 		18AB6771251DCF0E0049EA17 = {
 			isa = PBXGroup;
 			children = (
+				18311004251F5A34001710FA /* Image+CoreDataClass.swift */,
+				18311005251F5A34001710FA /* Image+CoreDataProperties.swift */,
+				18311006251F5A34001710FA /* Course+CoreDataClass.swift */,
+				18311007251F5A34001710FA /* Course+CoreDataProperties.swift */,
+				18311008251F5A34001710FA /* Category+CoreDataClass.swift */,
+				18311009251F5A34001710FA /* Category+CoreDataProperties.swift */,
 				18AB677C251DCF0F0049EA17 /* CourseBook(coreData2) */,
 				18AB677B251DCF0F0049EA17 /* Products */,
 			);
@@ -77,8 +83,6 @@
 			isa = PBXGroup;
 			children = (
 				18AB67A8251E1CC10049EA17 /* controller */,
-				18AB67A2251E06C00049EA17 /* EntityProperties */,
-				18AB67A6251E06EB0049EA17 /* EntityClass */,
 				18AB677D251DCF0F0049EA17 /* AppDelegate.swift */,
 				18AB677F251DCF0F0049EA17 /* SceneDelegate.swift */,
 				18AB6781251DCF0F0049EA17 /* ViewController.swift */,
@@ -91,26 +95,6 @@
 				186B8ECD251E4EE000F8450B /* constants.swift */,
 			);
 			path = "CourseBook(coreData2)";
-			sourceTree = "<group>";
-		};
-		18AB67A2251E06C00049EA17 /* EntityProperties */ = {
-			isa = PBXGroup;
-			children = (
-				18AB6796251E06630049EA17 /* Course+CoreDataProperties.swift */,
-				18AB6798251E06630049EA17 /* Category+CoreDataProperties.swift */,
-				18AB679A251E06630049EA17 /* CourseImage+CoreDataProperties.swift */,
-			);
-			path = EntityProperties;
-			sourceTree = "<group>";
-		};
-		18AB67A6251E06EB0049EA17 /* EntityClass */ = {
-			isa = PBXGroup;
-			children = (
-				18AB6797251E06630049EA17 /* Category+CoreDataClass.swift */,
-				18AB6799251E06630049EA17 /* CourseImage+CoreDataClass.swift */,
-				18AB6795251E06630049EA17 /* Course+CoreDataClass.swift */,
-			);
-			path = EntityClass;
 			sourceTree = "<group>";
 		};
 		18AB67A8251E1CC10049EA17 /* controller */ = {
@@ -191,19 +175,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18AB67A0251E06630049EA17 /* CourseImage+CoreDataProperties.swift in Sources */,
-				18AB679B251E06630049EA17 /* Course+CoreDataClass.swift in Sources */,
-				18AB679F251E06630049EA17 /* CourseImage+CoreDataClass.swift in Sources */,
+				1831100C251F5A34001710FA /* Course+CoreDataClass.swift in Sources */,
+				1831100F251F5A34001710FA /* Category+CoreDataProperties.swift in Sources */,
+				1831100E251F5A34001710FA /* Category+CoreDataClass.swift in Sources */,
+				1831100B251F5A34001710FA /* Image+CoreDataProperties.swift in Sources */,
 				18AB6782251DCF0F0049EA17 /* ViewController.swift in Sources */,
-				18AB679D251E06630049EA17 /* Category+CoreDataClass.swift in Sources */,
 				18AB6788251DCF0F0049EA17 /* CourseBook_coreData2_.xcdatamodeld in Sources */,
 				186B8ECE251E4EE000F8450B /* constants.swift in Sources */,
+				1831100A251F5A34001710FA /* Image+CoreDataClass.swift in Sources */,
+				1831100D251F5A34001710FA /* Course+CoreDataProperties.swift in Sources */,
 				18AB677E251DCF0F0049EA17 /* AppDelegate.swift in Sources */,
 				186B8ECB251E425B00F8450B /* CourseviewCell.swift in Sources */,
 				18AB67AA251E1CDC0049EA17 /* addCourseViewController.swift in Sources */,
-				18AB679C251E06630049EA17 /* Course+CoreDataProperties.swift in Sources */,
 				18AB6780251DCF0F0049EA17 /* SceneDelegate.swift in Sources */,
-				18AB679E251E06630049EA17 /* Category+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

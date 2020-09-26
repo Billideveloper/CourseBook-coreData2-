@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import CoreData
 
 
 class CourseviewCell: UITableViewCell {
@@ -33,12 +34,21 @@ class CourseviewCell: UITableViewCell {
         self.coursePrice.text = "\(course.price)$"
         self.AuthorName.text = course.by
         self.AuthorEmail.text = course.email
-        
+        self.courseImage.image = course.coursetocourseimage?.image as? UIImage
         if let Coursedate = course.publishdate{
             self.publishDate.text = "\(Coursedate)"
         }
         
-        //todo set image 
+        //todo set image
+//        if let image = course.coursetocourseimage?.image as? UIImage{
+//
+//            self.courseImage.image = image
+//
+//        }
+        
+        
+        
+        
         
 
     }

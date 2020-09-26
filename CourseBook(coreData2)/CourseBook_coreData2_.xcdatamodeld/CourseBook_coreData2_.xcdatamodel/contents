@@ -3,7 +3,7 @@
     <entity name="Category" representedClassName="Category" syncable="YES">
         <attribute name="name" optional="YES" attributeType="String"/>
         <relationship name="categoryToCourse" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Course" inverseName="coursetoCategory" inverseEntity="Course"/>
-        <relationship name="categoryToCourseimage" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CourseImage" inverseName="courseimagetocategory" inverseEntity="CourseImage"/>
+        <relationship name="categoryToCourseimage" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Image" inverseName="courseimagetocategory" inverseEntity="Image"/>
     </entity>
     <entity name="Course" representedClassName="Course" syncable="YES">
         <attribute name="by" optional="YES" attributeType="String"/>
@@ -12,9 +12,9 @@
         <attribute name="price" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
         <attribute name="publishdate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <relationship name="coursetoCategory" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Category" inverseName="categoryToCourse" inverseEntity="Category"/>
-        <relationship name="coursetocourseimage" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CourseImage" inverseName="courseimagetocourse" inverseEntity="CourseImage"/>
+        <relationship name="coursetocourseimage" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Image" inverseName="courseimagetocourse" inverseEntity="Image"/>
     </entity>
-    <entity name="CourseImage" representedClassName="CourseImage" syncable="YES">
+    <entity name="Image" representedClassName="Image" syncable="YES">
         <attribute name="image" optional="YES" attributeType="Transformable" valueTransformerName=""/>
         <relationship name="courseimagetocategory" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Category" inverseName="categoryToCourseimage" inverseEntity="Category"/>
         <relationship name="courseimagetocourse" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Course" inverseName="coursetocourseimage" inverseEntity="Course"/>
@@ -22,6 +22,6 @@
     <elements>
         <element name="Category" positionX="-374.35546875" positionY="-219.2890625" width="128" height="88"/>
         <element name="Course" positionX="-230.125" positionY="-320.33203125" width="128" height="148"/>
-        <element name="CourseImage" positionX="-194.65625" positionY="-96.43359375" width="128" height="88"/>
+        <element name="Image" positionX="-194.65625" positionY="-96.43359375" width="128" height="88"/>
     </elements>
 </model>

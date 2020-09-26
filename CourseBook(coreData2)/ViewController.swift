@@ -16,6 +16,8 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
     
     var controller : NSFetchedResultsController<Course>!
     
+    
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,8 +26,9 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
         tableview.delegate = self
         tableview.dataSource = self
         
-        testdata()
+        //testdata()
         fetchCourses()
+        
         
         
     }
@@ -74,37 +77,34 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
         switch type {
         
         case .delete:
-            if let indexpath = indexPath{
-                tableview.deleteRows(at: [indexpath], with: .fade)
+            if let indexPath = indexPath {
+                tableview.deleteRows(at: [indexPath], with: .fade)
             }
             
         case .insert:
-            if let newindexpath = indexPath{
-                tableview.insertRows(at: [newindexpath], with: .fade)
+            if let indexPath = newIndexPath {
+                tableview.insertRows(at: [indexPath], with: .fade)
             }
-            
         case .update:
-            if let newindexpath = indexPath{
-                let cell = tableview.cellForRow(at: newindexpath) as! CourseviewCell
-                
-                updatecellinfo(cell: cell, indexpath: newindexpath as NSIndexPath)
-                
+            if let indexPath = indexPath {
+                //TODO: Do something here
+                let cell = tableview.cellForRow(at: indexPath) as! CourseviewCell
+                updatecellinfo(cell: cell, indexpath: indexPath as NSIndexPath)
             }
-            
         case .move:
-            if let newindexpath = indexPath{
-                tableview.deleteRows(at: [newindexpath], with: .fade)
+            if let indexPath = indexPath {
+                tableview.deleteRows(at: [indexPath], with: .fade)
             }
-            if let indexpath = newIndexPath{
-                tableview.insertRows(at: [indexpath], with: .fade)
+            if let indexPath = newIndexPath {
+                tableview.insertRows(at: [indexPath], with: .fade)
             }
             
         @unknown default:
-            tableview.reloadData()
+            print("error")
         }
         
+        
     }
-    
     
 
     func updatecellinfo(cell:CourseviewCell,indexpath:NSIndexPath){
@@ -143,7 +143,8 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
             
         }catch{
             
-            debugPrint("\(error as NSError)")
+            let err = error as NSError
+            print("\(err)")
             
         }
         
@@ -152,16 +153,14 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
     
     
 
-    func testdata(){
-        let course = Course(context: context)
-        course.coursename = "IOS 14 SWiftUI 2.0"
-        course.by = "Ravi Thakur"
-        course.email = "thakurravi450"
-        course.price = 50
-        
-
-        appdelegate.saveContext()
-    }
+//    func testdata(){
+//        let course = Course(context: context)
+//        course.coursename = "IOS 14 SWiftUI 2.0"
+//        course.by = "Ravi Thakur"
+//        course.email = "thakurravi450"
+//        course.price = 50
+//        appdelegate.saveContext()
+//    }
     
 }
 

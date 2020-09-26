@@ -1,4 +1,3 @@
-//
 //  constants.swift
 //  CourseBook(coreData2)
 //
@@ -22,7 +21,7 @@ class GradientView: UIView {
         super.init(coder: aDecoder)
         let gradientLayer = layer as! CAGradientLayer
         let color1 = #colorLiteral(red: 0, green: 0.9292984605, blue: 0.9380435348, alpha: 1)
-        let color2 = #colorLiteral(red: 0.1147347167, green: 0.9864431024, blue: 0.8179699779, alpha: 1)
+        let color2 = #colorLiteral(red: 0.04604572803, green: 0.8995314837, blue: 0.7509846687, alpha: 0.6938677226)
         
         gradientLayer.colors = [color1.cgColor, color2.cgColor]
        
