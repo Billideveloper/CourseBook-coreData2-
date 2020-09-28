@@ -7,6 +7,7 @@
 
 import UIKit
 import CoreData
+import IQKeyboardManager
 
 class addCourseViewController: UIViewController, UIImagePickerControllerDelegate & UINavigationControllerDelegate {
     
@@ -37,6 +38,8 @@ class addCourseViewController: UIViewController, UIImagePickerControllerDelegate
         selectCourseImage.isUserInteractionEnabled = true
         selectCourseImage.addGestureRecognizer(tapgesture)
         // Do any additional setup after loading the view.
+        
+        
     }
     
 
